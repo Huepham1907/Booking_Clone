@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    max-width: 100%;
+    font-family: Avenir Next,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    line-height: 100%;
+}
+/* nav-bar */
+.container {
+    background-color: #003580 ;
+    max-width: 100%;
+    height: 35rem;
+}
+.logo-container {
+    margin: 2rem 2.5rem 0;
+}
+
+.list-container {
+    display: flex;
+    margin: 0 auto;
+    
+}
+.nav-right-container {
+    display: flex;
+    margin: 0 55rem;
+   
+    
+}
+ .btn-currency{
+    color: #fff;
+    margin-top: 4rem;
+    margin-right: 2rem;
+ background-color: #003580;
+font-size: 1.5rem;
+font-weight: 5rem;
+cursor: pointer;
+font-weight: 500;
+
+}
+
+/* .btn-currency:hover {
+    display: fixed;
+    border: 1px solid rgb(176, 176, 176);
+    padding:1rem;
+}
+.btn-language:hover {
+    display: fixed;
+    border: 1px solid rgb(176, 176, 176);
+    
+}
+.btn-customer-service:hover {
+    display: fixed;
+    border: 1px solid rgb(176, 176, 176);
+    padding:1rem;
+} */
+ .btn-language img {
+    margin-top: 3rem;
+    margin-right: 2rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    
+   
+ }
+
+.btn-customer-service   {
+    margin-top: 3rem;
+    margin-right: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn-property{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    background-color: #003580;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 15rem;
+    border: 1px solid #fff;
+}
+.btn-register {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    color: #003580;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.btn-sign_in {
+    margin-top: 2rem;
+    color: #003580;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+/* menu-container*/
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+
+.menu-container ul {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+li {
+    margin: 2rem 2.5rem;
+}
+li a { 
+    color: #fff;
+}
+
+svg {
+    fill: #fff;
+}
+/* description */
+.description {
+    color: #fff;  
+    margin-left: 2.5rem;
+}
+.description h3 {
+font-size: 5rem;
+font-weight: 700;
+margin-top: 10rem;
+padding-right: 2rem;
+
+}
+
+.description h4 {
+font-size: 2rem;
+margin-top: 3rem;
+font-weight: 400;
+}
+
+/* search menu */
+
+.destination {
+    background-image: url(https://t-cf.bstatic.com/static/img/cross_product_index/accommodation/07ca5cacc9d77a7b50ca3c424ecd606114d9be75.svg);
+    padding-left: 5rem;
+}
+
+/* banner container */
+.banner-container {
+   
+}
+.logo-banner img{
+  width: 15rem;
+  margin-left: 2.5rem;
+  margin-top: 15rem;
+}
+.saving {
+    float: right;
+}
+.saving h4 {
+   margin-right: 92rem;
+   margin-top: -12rem;
+font-size: 1.8rem;
+}
+.saving h5 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+}
+button.btn-deals {
+    float: right;  
+}
+
+.btn-deals {
+    margin-right: 97rem;
+    margin-top: -6rem; 
+   padding: 1rem;
+   background-color: #0071c2;
+   border: none;
+   color: #fff;
+   cursor: pointer;
+   border-radius: 2px;
+}
+.btn-deals:hover {
+    background-color: #003580;  
+    cursor: pointer;
+
+}
+
+/* Slider Carousel  */
+.introduction {
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+.introduction h3 {
+    font-size: 2rem;
+}
+.introduction h4 {
+    margin-top: 1.5rem;
+    color: rgb(146, 144, 144);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.owl-carousel {
+   max-width: 100%;
+   margin-left: 2.5rem;
+   margin-top: 3rem;
+   
+}
+
+.owl-carousel img {
+   width: 10px;
+   height: 15rem;
+   gap: 1rem;
+}
+
+.owl-next {
+    position: absolute;
+   right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px!important;
+    color: black!important;
+}
+.owl-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px!important;
+    color: black!important;
+}
+.type h3 {
+    font-size: 2rem;
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+}
+
+.places {
+      background-image: url(https://t-cf.bstatic.com/xdata/images/city/540x270/688878.webp?k=f99bc5f3a6cfdbaacddae7ce5912f1aefc40e81ecfa99682b91177df1866b883&o=) no-repeat center center ; background-size: cover;
+}
+
+.trips h3 {
+    font-size: 2rem;
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+}
+.trips h4 {
+    margin-top: 1.5rem;
+    color: rgb(146, 144, 144);
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+}
+
+.tour-places h3 {
+    font-size: 2rem;
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+}
